@@ -2,7 +2,7 @@ Oprop
 =====
 
 Simple package that extends Javascript's Object object to have these helper
-functions. See the docs: oprop.ramseydsilva.com
+functions. See the docs: http://oprop.ramseydsilva.com
 
 hasProperty
 -----------
