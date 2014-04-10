@@ -1,7 +1,7 @@
 Oprop
 =====
 
-Simple module that extends Object to have these helper functions
+Simple package that extends Javascript's Object object to have these helper functions
 
 hasProperty
 -----------
@@ -30,3 +30,8 @@ myobj.getProperty('a.b.c'); // 1
 myobj.getProperty('b.c'); // undefined
 myobj.getProperty('a.b.c.d'); // undefined
 ```
+
+OMG IT EXTENDS OBJECT???!?!@
+----------------------------
+Yes, yes it does, with a single getters for each method, and no it won't break your code, because it does this properly with a non-enumerable property.
+
