@@ -1,7 +1,7 @@
 oprop
 =====
 
-Simple plugin that extends Javascript's Object object with two helper methods `getProperty` and `hasProperty`. These methods take a dotted string to retrieve nested Object's properties. See the [docs][docs] or [blog post][blog] for more information.
+Simple Node.js package that extends Javascript's native Object with two helper methods `getProperty` and `hasProperty`. These methods take a dotted string to retrieve nested Object's properties. See the [docs][docs] or [blog post][blog] for more information.
 
 Install
 -------
