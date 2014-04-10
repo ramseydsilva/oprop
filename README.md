@@ -1,7 +1,8 @@
 Oprop
 =====
 
-Simple package that extends Javascript's Object object to have these helper functions
+Simple package that extends Javascript's Object object to have these helper
+functions. See the docs: oprop.ramseydsilva.com
 
 hasProperty
 -----------
@@ -30,6 +31,12 @@ myobj.getProperty('a.b.c'); // 1
 myobj.getProperty('b.c'); // undefined
 myobj.getProperty('a.b.c.d'); // undefined
 ```
+
+Testing
+-------
+
+`npm test`
+
 
 OMG IT EXTENDS OBJECT???!?!@
 ----------------------------

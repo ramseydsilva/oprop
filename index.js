@@ -1,3 +1,10 @@
+/**
+ * Simple package that extends Javascript's Object with two new methods
+ * @author Ramsey D'silva <ramseydsilva@gmail.com>
+ * @version 0.0.3
+ * @file index
+ */
+
 'use strict';
 
 /**

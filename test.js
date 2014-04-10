@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert');
-require('./index');
+require('./');
 
 var myobj = {a: {b: {c: 1}}};
 
