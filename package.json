@@ -1,6 +1,6 @@
 {
   "name": "oprop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extends Object type to have hasProperty and getProperty methods",
   "main": "index.js",
   "scripts": {
