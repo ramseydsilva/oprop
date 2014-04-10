@@ -1,11 +1,12 @@
+'use strict';
+
 /**
- * Simple package that extends Javascript's Object with two new methods
+ * @file Simple package that extends Javascript's Object with two new methods.
+ * Also see {@link https://github.com/ramseydsilva/oprop github}
+ * and {@link https://www.npmjs.org/package/oprop npm}.
  * @author Ramsey D'silva <ramseydsilva@gmail.com>
  * @version 0.0.3
- * @file index
  */
-
-'use strict';
 
 /**
  * Creates and exposes Object's getProperty method
