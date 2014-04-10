@@ -1,21 +1,33 @@
 'use strict';
 
 /**
+ * Creates and exposes Object's getProperty method
  * @method getProperty
  * @augments Object
  * @param {String} str Dot representation of the object's property
  * @returns {Object} Returns the value of object's nested property, else undefined
  */
-Object.prototype.getProperty = function(str) {
-    return str.split('.').reduce(function(o, x) {return (typeof o != 'undefined' && !!o[x] ? o[x] : undefined)}, this);
-}
+Object.defineProperty(Object.prototype, 'getProperty', {
+    set: function() {},
+    get: function() {
+        return function(str) {
+            return str.split('.').reduce(function(o, x) {return (typeof o != 'undefined' && !!o[x] ? o[x] : undefined)}, this);
+        }
+    }
+});
 
 /**
+ * Creates and exposes Object's hasProperty method
  * @method hasProperty
  * @augments Object
  * @param {String} str Dot representation of the object's property
  * @returns {Boolean} Wether this object contains the ennumerable property
  */
-Object.prototype.hasProperty = function(str) {
-    return !!this.getProperty(str);
-}
+Object.defineProperty(Object.prototype, 'hasProperty', {
+    set: function() {},
+    get: function() {
+        return function(str) {
+            return !!this.getProperty(str);
+        }
+    }
+});
