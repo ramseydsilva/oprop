@@ -1,0 +1,27 @@
+{
+  "name": "oprop",
+  "version": "0.0.1",
+  "description": "Extends Object type to have hasProperty and getProperty methods",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramseydsilva/oprop"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "property"
+  ],
+  "author": "Ramsey D'silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramseydsilva/oprop/issues"
+  },
+  "homepage": "https://github.com/ramseydsilva/oprop",
+  "devDependencies": {
+    "assert": "^1.1.1"
+  }
+}
