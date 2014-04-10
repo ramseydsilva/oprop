@@ -2,10 +2,20 @@ Oprop
 =====
 
 Simple package that extends Javascript's Object object to have these helper
-functions. See the docs: http://oprop.ramseydsilva.com
+functions. 
 
-hasProperty
------------
+See the docs: http://oprop.ramseydsilva.com
+
+Install
+-------
+
+`npm install oprop`
+
+Methods
+-------
+
+### hasProperty
+
 Returns true or false
 ```
 require('oprop');
@@ -18,8 +28,8 @@ myobj.hasProperty('b.c'); // false
 myobj.hasProperty('a.b.c.d'); // false
 ```
 
-getProperty
------------
+### getProperty 
+
 Returns the object's property else undefined
 ```
 require('oprop');
