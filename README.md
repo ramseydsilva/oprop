@@ -1,10 +1,7 @@
-Oprop
+oprop
 =====
 
-Simple package that extends Javascript's Object object to have these helper
-functions. 
-
-See the docs: http://oprop.ramseydsilva.com
+Simple plugin that extends Javascript's Object object with two helper methods `getProperty` and `hasProperty`. These methods take a dotted string to retrieve nested Object's properties. See the [docs][docs] or [blog post][blog] for more information.
 
 Install
 -------
@@ -50,5 +47,8 @@ Testing
 
 OMG IT EXTENDS OBJECT???!?!@
 ----------------------------
-Yes, yes it does, with a single getters for each method, and no it won't break your code, because it does this properly with a non-enumerable property.
+Yes, yes it does, with a single getters for each method, and no it won't break your code, because it does this properly with a non-enumerable property. It's recommended not to install this plugin globally, so just skip the -g option during install and you'll be fine.
 
+
+[docs]: http://oprop.ramseydsilva.com
+[blog]: http://blog.ramseydsilva.com/2014/04/extending-javascript-objects/
